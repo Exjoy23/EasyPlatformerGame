@@ -1,0 +1,35 @@
+{
+  "name": "EasyPlatformerGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp clean & cross-env NODE_ENV=production webpack & gulp build",
+    "start": "webpack serve",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Exjoy23",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "10.0.2",
+    "browser-sync": "2.26.13",
+    "copy-webpack-plugin": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "del": "^6.0.0",
+    "gh-pages": "^3.1.0",
+    "gulp": "4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "9.0.0",
+    "gulp-rename": "^2.0.0",
+    "html-webpack-plugin": "^4.5.1",
+    "postcss": "8.1.7",
+    "postcss-csso": "^5.0.0",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "phaser": "^3.50.1"
+  }
+}
