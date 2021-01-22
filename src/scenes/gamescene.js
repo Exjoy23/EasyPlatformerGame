@@ -1,9 +1,9 @@
 'use strict';
 
 import Phaser from 'phaser';
-import Enemy from './enemy';
+import Enemy from '../objects/enemy';
 
-import Player from './player';
+import Player from '../objects/player';
 
 export default class GameScene extends Phaser.Scene {
   constructor() {
@@ -12,7 +12,7 @@ export default class GameScene extends Phaser.Scene {
 
   preload() {
     this.load.image('background', './assets/images/background.png');
-    this.load.image('tiles', './assets/tilesets/platformPack_tilesheet.png');
+    this.load.image('tiles', './assets/tilesets/tileset.png');
     this.load.image('spike', './assets/images/spike.png');
     this.load.tilemapTiledJSON('map', './assets/tilemaps/map.json');
     this.load.atlas('player', './assets/images/kenney_player.png',
@@ -23,12 +23,13 @@ export default class GameScene extends Phaser.Scene {
     // const backgroundImage = this.add.image(0, -300, 'background').setOrigin(0, 0);
     // backgroundImage.setScale(2, 0.8);
     const map = this.make.tilemap({ key: 'map', tileWidth: 64, tileHeight: 64 });
-    const tileset = map.addTilesetImage('platformPack_tilesheet', 'tiles');
+    const tileset = map.addTilesetImage('tileset', 'tiles');
     const platforms = map.createLayer('Platforms', tileset, 0, 0);
     platforms.setCollisionByExclusion(-1, true);
 
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'Spawn Point');
-    this.player = new Player(this, spawnPoint.x, spawnPoint.y, this.cameras.main);
+    // this.player = new Player(this, spawnPoint.x, spawnPoint.y, this.cameras.main);
+    this.player = new Player(this, 800, 0, this.cameras.main);
     this.physics.add.collider(this.player.sprite, platforms);
 
     // this.cameras.main.setBounds(0, -200, backgroundImage.displayWidth, backgroundImage.displayHeight);

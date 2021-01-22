@@ -34,7 +34,7 @@ export default class Player {
       .sprite(x, y, 'player', 0)
       .setBounce(0.1);
 
-    this.sprite.body.setSize(this.sprite.width - 10, this.sprite.height - 30).setOffset(10, 30);
+    this.sprite.body.setSize(this.sprite.width - 10, this.sprite.height - 30).setOffset(10, 25);
 
     const { LEFT, RIGHT, UP, W, A, D, SPACE, ENTER } = Phaser.Input.Keyboard.KeyCodes;
     this.keys = scene.input.keyboard.addKeys({
@@ -86,10 +86,10 @@ export default class Player {
     }
   }
 
-  playerHit(player) {
+  playerHit(player, spike) {
     player.setVelocity(0, 0);
-    player.setX(50);
-    player.setY(100);
+    player.setX(800);
+    player.setY(0);
     player.play('idle', true);
     player.setAlpha(0);
     let tw = this.tweens.add({
