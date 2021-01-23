@@ -1,8 +1,6 @@
 'use strict';
 
-import Phaser from 'phaser';
-
-export default class Enemy {
+export default class Spikes {
   constructor(player, map, physics, scene) {
     this.spikes = physics.add.group({
       allowGravity: false,

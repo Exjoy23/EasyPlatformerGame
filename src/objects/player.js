@@ -52,15 +52,17 @@ export default class Player {
     camera.roundPixels = true;
   }
 
-  update() {
+  update(s) {
     const { keys, sprite } = this;
 
-    if (keys.left.isDown || keys.a.isDown) {
+    console.log(s);
+
+    if (keys.left.isDown || keys.a.isDown || s === 'left' || s === 'upleft') {
       sprite.setVelocityX(-200);
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
       }
-    } else if (keys.right.isDown || keys.d.isDown) {
+    } else if (keys.right.isDown || keys.d.isDown || s === 'right' || s === 'upright') {
       sprite.setVelocityX(200);
 
       if (sprite.body.onFloor()) {
@@ -73,7 +75,7 @@ export default class Player {
       }
     }
 
-    if ((keys.space.isDown || keys.up.isDown || keys.w.isDown) && sprite.body.onFloor()) {
+    if ((keys.space.isDown || keys.up.isDown || keys.w.isDown || s === 'up' || s === 'upright') && sprite.body.onFloor()) {
       // this.scene.jumpSound.play();
       sprite.setVelocityY(-550);
       sprite.play('jump', true);

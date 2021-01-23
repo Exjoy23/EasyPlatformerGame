@@ -4,6 +4,8 @@ import Phaser from 'phaser';
 
 import GameScene from './scenes/gamescene';
 
+import VirtualJoyStickPlugin from 'phaser3-rex-plugins/plugins/virtualjoystick-plugin.js';
+
 const config = {
   type: Phaser.AUTO,
   scale: {
@@ -16,9 +18,16 @@ const config = {
     default: 'arcade',
     arcade: {
       gravity: { y: 1000 },
-      debug: false
+      debug: true
     }
   },
+  plugins: {
+    global: [{
+        key: 'rexVirtualJoyStick',
+        plugin: VirtualJoyStickPlugin,
+        start: true
+    }]
+},
   backgroundColor: '#ffffff',
   scene: [GameScene]
 };
