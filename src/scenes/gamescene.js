@@ -2,7 +2,7 @@
 
 import Phaser from 'phaser';
 import Spikes from '../objects/spikes';
-
+import Joystick from '../objects/joystick';
 import Player from '../objects/player';
 
 export default class GameScene extends Phaser.Scene {
@@ -16,9 +16,6 @@ export default class GameScene extends Phaser.Scene {
     this.load.tilemapTiledJSON('map', './assets/tilemaps/map.json');
     this.load.atlas('player', './assets/images/kenney_player.png',
       './assets/images/kenney_player_atlas.json');
-
-    const url = 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexvirtualjoystickplugin.min.js';
-    this.load.plugin('rexvirtualjoystickplugin', url, true);
   }
 
   create() {
@@ -37,27 +34,13 @@ export default class GameScene extends Phaser.Scene {
     // this.cameras.main.setBounds(0, -200, backgroundImage.displayWidth, backgroundImage.displayHeight);
     this.fps = document.querySelector('.fps');
 
-    this.joyStick = this.plugins.get('rexVirtualJoyStick').add(this, {
-      x: 100,
-      y: 400,
-      radius: 100,
-      base: this.add.circle(0, 0, 70, 0x888888),
-      thumb: this.add.circle(0, 0, 35, 0xcccccc),
-      // dir: '8dir',   // 'up&down'|0|'left&right'|1|'4dir'|2|'8dir'|3
-      // forceMin: 16,
-      // enable: true
-    })
-      .on('update', this.dumpJoyStickState, this);
-
-    this.s = null;
-    this.text = this.add.text(0, 0);
-    this.dumpJoyStickState();
+    this.joystick = new Joystick(this.plugins, this);
   }
 
   update() {
     // this.fps.textContent = (this.game.loop.actualFps).toFixed(0);
 
-    this.player.update(this.s);
+    this.player.update(this.joystick.getDirection());
 
     // const joyStick = this.joyStick;
     // if (joyStick.enable && joyStick.force > 100) {
@@ -72,17 +55,5 @@ export default class GameScene extends Phaser.Scene {
     // }
   }
 
-  dumpJoyStickState() {
-    const cursorKeys = this.joyStick.createCursorKeys();
-    this.s = '';
-    for (let name in cursorKeys) {
-      if (cursorKeys[name].isDown) {
-        this.s += name;
-      }
-    }
-    // this.s += '\n';
-    // this.s += ('Force: ' + Math.floor(this.joyStick.force * 100) / 100 + '\n');
-    // this.s += ('Angle: ' + Math.floor(this.joyStick.angle * 100) / 100 + '\n');
-    // this.text.setText(this.s);
-  }
+
 }
