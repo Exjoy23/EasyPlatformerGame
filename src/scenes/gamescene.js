@@ -38,11 +38,11 @@ export default class GameScene extends Phaser.Scene {
     this.fps = document.querySelector('.fps');
 
     this.joyStick = this.plugins.get('rexVirtualJoyStick').add(this, {
-      x: 400,
-      y: 300,
+      x: 100,
+      y: 400,
       radius: 100,
-      base: this.add.circle(0, 0, 100, 0x888888),
-      thumb: this.add.circle(0, 0, 50, 0xcccccc),
+      base: this.add.circle(0, 0, 70, 0x888888),
+      thumb: this.add.circle(0, 0, 35, 0xcccccc),
       // dir: '8dir',   // 'up&down'|0|'left&right'|1|'4dir'|2|'8dir'|3
       // forceMin: 16,
       // enable: true
@@ -59,17 +59,17 @@ export default class GameScene extends Phaser.Scene {
 
     this.player.update(this.s);
 
-    const joyStick = this.joyStick;
-    if (joyStick.enable && joyStick.force > 100) {
-      let tolerance = 100 / joyStick.force;
-      joyStick.setPosition(
-        joyStick.pointer.position.x - joyStick.forceX * tolerance,
-        joyStick.pointer.position.y - joyStick.forceY * tolerance
-      );
+    // const joyStick = this.joyStick;
+    // if (joyStick.enable && joyStick.force > 100) {
+    //   let tolerance = 100 / joyStick.force;
+    //   joyStick.setPosition(
+    //     joyStick.pointer.position.x - joyStick.forceX * tolerance,
+    //     joyStick.pointer.position.y - joyStick.forceY * tolerance
+    //   );
 
-      joyStick.thumb.x = joyStick.pointer.position.x;
-      joyStick.thumb.y = joyStick.pointer.position.y;
-    }
+    //   joyStick.thumb.x = joyStick.pointer.position.x;
+    //   joyStick.thumb.y = joyStick.pointer.position.y;
+    // }
   }
 
   dumpJoyStickState() {
