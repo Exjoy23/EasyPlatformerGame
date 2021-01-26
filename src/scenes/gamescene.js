@@ -14,8 +14,8 @@ export default class GameScene extends Phaser.Scene {
     this.load.image('tiles', './assets/tilesets/tileset.png');
     this.load.image('spike', './assets/images/spike.png');
     this.load.tilemapTiledJSON('map', './assets/tilemaps/map.json');
-    this.load.atlas('player', './assets/images/kenney_player.png',
-      './assets/images/kenney_player_atlas.json');
+    this.load.atlas('player', './assets/images/ninja.png',
+    './assets/images/ninja_atlas.json');
   }
 
   create() {

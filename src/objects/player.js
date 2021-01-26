@@ -10,31 +10,41 @@ export default class Player {
     anims.create({
       key: 'walk',
       frames: anims.generateFrameNames('player', {
-        prefix: 'robo_player_',
-        start: 2,
-        end: 3,
+        prefix: 'ninja_walk_',
+        start: 0,
+        end: 59,
       }),
-      frameRate: 10,
+      frameRate: 120,
       repeat: -1
     });
 
     anims.create({
       key: 'idle',
-      frames: [{ key: 'player', frame: 'robo_player_0' }],
-      frameRate: 10,
+      frames: anims.generateFrameNames('player', {
+        prefix: 'ninja_idle_',
+        start: 0,
+        end: 59,
+      }),
+      frameRate: 120,
+      repeat: -1
     });
 
     anims.create({
       key: 'jump',
-      frames: [{ key: 'player', frame: 'robo_player_1' }],
-      frameRate: 10,
+      frames: anims.generateFrameNames('player', {
+        prefix: 'ninja_jump_',
+        start: 0,
+        end: 59,
+      }),
+      frameRate: 120,
+      repeat: -1
     });
 
     this.sprite = scene.physics.add
       .sprite(x, y, 'player', 0)
       .setBounce(0.1);
 
-    this.sprite.body.setSize(this.sprite.width - 10, this.sprite.height - 30).setOffset(10, 25);
+    this.sprite.body.setSize(this.sprite.width - 60, this.sprite.height - 5).setOffset(30, 0);
 
     const { LEFT, RIGHT, UP, W, A, D, SPACE, ENTER } = Phaser.Input.Keyboard.KeyCodes;
     this.keys = scene.input.keyboard.addKeys({
@@ -49,7 +59,6 @@ export default class Player {
     });
 
     camera.startFollow(this.sprite);
-    camera.roundPixels = true;
   }
 
   update(direction) {
@@ -57,6 +66,7 @@ export default class Player {
 
     if (keys.left.isDown || keys.a.isDown || direction === 'left' || direction === 'upleft') {
       sprite.setVelocityX(-200);
+
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
       }
@@ -68,6 +78,7 @@ export default class Player {
       }
     } else {
       sprite.setVelocityX(0);
+
       if (sprite.body.onFloor()) {
         sprite.play('idle', true);
       }

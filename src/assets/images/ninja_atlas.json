@@ -1,0 +1,2348 @@
+{
+    "frames": [
+        {
+            "filename": "ninja_idle_0",
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_1",
+            "frame": {
+                "x": 84,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_2",
+            "frame": {
+                "x": 167,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_3",
+            "frame": {
+                "x": 250,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_4",
+            "frame": {
+                "x": 333,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_5",
+            "frame": {
+                "x": 416,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_6",
+            "frame": {
+                "x": 499,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_7",
+            "frame": {
+                "x": 582,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_8",
+            "frame": {
+                "x": 665,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_9",
+            "frame": {
+                "x": 748,
+                "y": 1,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_10",
+            "frame": {
+                "x": 1,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_11",
+            "frame": {
+                "x": 84,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_12",
+            "frame": {
+                "x": 167,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_13",
+            "frame": {
+                "x": 250,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_14",
+            "frame": {
+                "x": 333,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_15",
+            "frame": {
+                "x": 416,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_16",
+            "frame": {
+                "x": 499,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_17",
+            "frame": {
+                "x": 582,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_18",
+            "frame": {
+                "x": 665,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_19",
+            "frame": {
+                "x": 748,
+                "y": 93,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_20",
+            "frame": {
+                "x": 1,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_21",
+            "frame": {
+                "x": 84,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_22",
+            "frame": {
+                "x": 167,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_23",
+            "frame": {
+                "x": 250,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_24",
+            "frame": {
+                "x": 333,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_25",
+            "frame": {
+                "x": 416,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_26",
+            "frame": {
+                "x": 499,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_27",
+            "frame": {
+                "x": 582,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_28",
+            "frame": {
+                "x": 665,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_29",
+            "frame": {
+                "x": 748,
+                "y": 185,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_30",
+            "frame": {
+                "x": 1,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_31",
+            "frame": {
+                "x": 84,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_32",
+            "frame": {
+                "x": 167,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_33",
+            "frame": {
+                "x": 250,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_34",
+            "frame": {
+                "x": 333,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_35",
+            "frame": {
+                "x": 416,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_36",
+            "frame": {
+                "x": 499,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_37",
+            "frame": {
+                "x": 582,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_38",
+            "frame": {
+                "x": 665,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_39",
+            "frame": {
+                "x": 748,
+                "y": 277,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_40",
+            "frame": {
+                "x": 1,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_41",
+            "frame": {
+                "x": 84,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_42",
+            "frame": {
+                "x": 167,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_43",
+            "frame": {
+                "x": 250,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_44",
+            "frame": {
+                "x": 333,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_45",
+            "frame": {
+                "x": 416,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_46",
+            "frame": {
+                "x": 499,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_47",
+            "frame": {
+                "x": 582,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_48",
+            "frame": {
+                "x": 665,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_49",
+            "frame": {
+                "x": 748,
+                "y": 369,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_50",
+            "frame": {
+                "x": 1,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_51",
+            "frame": {
+                "x": 84,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_52",
+            "frame": {
+                "x": 167,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_53",
+            "frame": {
+                "x": 250,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_54",
+            "frame": {
+                "x": 333,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_55",
+            "frame": {
+                "x": 416,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_56",
+            "frame": {
+                "x": 499,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_57",
+            "frame": {
+                "x": 582,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_58",
+            "frame": {
+                "x": 665,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_idle_59",
+            "frame": {
+                "x": 748,
+                "y": 461,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_0",
+            "frame": {
+                "x": 1,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_1",
+            "frame": {
+                "x": 84,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_2",
+            "frame": {
+                "x": 167,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_3",
+            "frame": {
+                "x": 250,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_4",
+            "frame": {
+                "x": 333,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_5",
+            "frame": {
+                "x": 416,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_6",
+            "frame": {
+                "x": 499,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_7",
+            "frame": {
+                "x": 582,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_8",
+            "frame": {
+                "x": 665,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_9",
+            "frame": {
+                "x": 748,
+                "y": 553,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_10",
+            "frame": {
+                "x": 1,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_11",
+            "frame": {
+                "x": 84,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_12",
+            "frame": {
+                "x": 167,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_13",
+            "frame": {
+                "x": 250,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_14",
+            "frame": {
+                "x": 333,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_15",
+            "frame": {
+                "x": 416,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_16",
+            "frame": {
+                "x": 499,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_17",
+            "frame": {
+                "x": 582,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_18",
+            "frame": {
+                "x": 665,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_19",
+            "frame": {
+                "x": 748,
+                "y": 645,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_20",
+            "frame": {
+                "x": 1,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_21",
+            "frame": {
+                "x": 84,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_22",
+            "frame": {
+                "x": 167,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_23",
+            "frame": {
+                "x": 250,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_24",
+            "frame": {
+                "x": 333,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_25",
+            "frame": {
+                "x": 416,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_26",
+            "frame": {
+                "x": 499,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_27",
+            "frame": {
+                "x": 582,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_28",
+            "frame": {
+                "x": 665,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_29",
+            "frame": {
+                "x": 748,
+                "y": 737,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_30",
+            "frame": {
+                "x": 1,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_31",
+            "frame": {
+                "x": 84,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_32",
+            "frame": {
+                "x": 167,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_33",
+            "frame": {
+                "x": 250,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_34",
+            "frame": {
+                "x": 333,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_35",
+            "frame": {
+                "x": 416,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_36",
+            "frame": {
+                "x": 499,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_37",
+            "frame": {
+                "x": 582,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_38",
+            "frame": {
+                "x": 665,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_39",
+            "frame": {
+                "x": 748,
+                "y": 829,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_40",
+            "frame": {
+                "x": 1,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_41",
+            "frame": {
+                "x": 84,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_42",
+            "frame": {
+                "x": 167,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_43",
+            "frame": {
+                "x": 250,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_44",
+            "frame": {
+                "x": 333,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_45",
+            "frame": {
+                "x": 416,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_46",
+            "frame": {
+                "x": 499,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_47",
+            "frame": {
+                "x": 582,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_48",
+            "frame": {
+                "x": 665,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_49",
+            "frame": {
+                "x": 748,
+                "y": 921,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_50",
+            "frame": {
+                "x": 1,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_51",
+            "frame": {
+                "x": 84,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_52",
+            "frame": {
+                "x": 167,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_53",
+            "frame": {
+                "x": 250,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_54",
+            "frame": {
+                "x": 333,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_55",
+            "frame": {
+                "x": 416,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_56",
+            "frame": {
+                "x": 499,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_57",
+            "frame": {
+                "x": 582,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_58",
+            "frame": {
+                "x": 665,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_jump_59",
+            "frame": {
+                "x": 748,
+                "y": 1013,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_0",
+            "frame": {
+                "x": 1,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_1",
+            "frame": {
+                "x": 84,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_2",
+            "frame": {
+                "x": 167,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_3",
+            "frame": {
+                "x": 250,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_4",
+            "frame": {
+                "x": 333,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_5",
+            "frame": {
+                "x": 416,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_6",
+            "frame": {
+                "x": 499,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_7",
+            "frame": {
+                "x": 582,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_8",
+            "frame": {
+                "x": 665,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_9",
+            "frame": {
+                "x": 748,
+                "y": 1105,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_10",
+            "frame": {
+                "x": 1,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_11",
+            "frame": {
+                "x": 84,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_12",
+            "frame": {
+                "x": 167,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_13",
+            "frame": {
+                "x": 250,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_14",
+            "frame": {
+                "x": 333,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_15",
+            "frame": {
+                "x": 416,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_16",
+            "frame": {
+                "x": 499,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_17",
+            "frame": {
+                "x": 582,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_18",
+            "frame": {
+                "x": 665,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_19",
+            "frame": {
+                "x": 748,
+                "y": 1197,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_20",
+            "frame": {
+                "x": 1,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_21",
+            "frame": {
+                "x": 84,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_22",
+            "frame": {
+                "x": 167,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_23",
+            "frame": {
+                "x": 250,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_24",
+            "frame": {
+                "x": 333,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_25",
+            "frame": {
+                "x": 416,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_26",
+            "frame": {
+                "x": 499,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_27",
+            "frame": {
+                "x": 582,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_28",
+            "frame": {
+                "x": 665,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_29",
+            "frame": {
+                "x": 748,
+                "y": 1289,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_30",
+            "frame": {
+                "x": 1,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_31",
+            "frame": {
+                "x": 84,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_32",
+            "frame": {
+                "x": 167,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_33",
+            "frame": {
+                "x": 250,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_34",
+            "frame": {
+                "x": 333,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_35",
+            "frame": {
+                "x": 416,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_36",
+            "frame": {
+                "x": 499,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_37",
+            "frame": {
+                "x": 582,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_38",
+            "frame": {
+                "x": 665,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_39",
+            "frame": {
+                "x": 748,
+                "y": 1381,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_40",
+            "frame": {
+                "x": 1,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_41",
+            "frame": {
+                "x": 84,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_42",
+            "frame": {
+                "x": 167,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_43",
+            "frame": {
+                "x": 250,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_44",
+            "frame": {
+                "x": 333,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_45",
+            "frame": {
+                "x": 416,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_46",
+            "frame": {
+                "x": 499,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_47",
+            "frame": {
+                "x": 582,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_48",
+            "frame": {
+                "x": 665,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_49",
+            "frame": {
+                "x": 748,
+                "y": 1473,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_50",
+            "frame": {
+                "x": 1,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_51",
+            "frame": {
+                "x": 84,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_52",
+            "frame": {
+                "x": 167,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_53",
+            "frame": {
+                "x": 250,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_54",
+            "frame": {
+                "x": 333,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_55",
+            "frame": {
+                "x": 416,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_56",
+            "frame": {
+                "x": 499,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_57",
+            "frame": {
+                "x": 582,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_58",
+            "frame": {
+                "x": 665,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ninja_walk_59",
+            "frame": {
+                "x": 748,
+                "y": 1565,
+                "w": 81,
+                "h": 90
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
