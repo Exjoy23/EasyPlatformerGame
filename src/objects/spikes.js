@@ -1,5 +1,3 @@
-'use strict';
-
 export default class Spikes {
   constructor(player, map, physics, scene) {
     this.spikes = physics.add.group({

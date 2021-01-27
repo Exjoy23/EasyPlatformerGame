@@ -1,5 +1,3 @@
-'use strict';
-
 import Phaser from 'phaser';
 import Spikes from '../objects/spikes';
 import Joystick from '../objects/joystick';
@@ -43,19 +41,5 @@ export default class GameScene extends Phaser.Scene {
     // this.fps.textContent = (this.game.loop.actualFps).toFixed(0);
 
     this.player.update(this.joystick.getDirection());
-
-    // const joyStick = this.joyStick;
-    // if (joyStick.enable && joyStick.force > 100) {
-    //   let tolerance = 100 / joyStick.force;
-    //   joyStick.setPosition(
-    //     joyStick.pointer.position.x - joyStick.forceX * tolerance,
-    //     joyStick.pointer.position.y - joyStick.forceY * tolerance
-    //   );
-
-    //   joyStick.thumb.x = joyStick.pointer.position.x;
-    //   joyStick.thumb.y = joyStick.pointer.position.y;
-    // }
   }
-
-
 }

@@ -1,9 +1,5 @@
-'use strict';
-
 import Phaser from 'phaser';
-
 import GameScene from './scenes/gamescene';
-
 import VirtualJoyStickPlugin from 'phaser3-rex-plugins/plugins/virtualjoystick-plugin.js';
 
 const config = {

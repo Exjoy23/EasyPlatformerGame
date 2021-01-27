@@ -13,7 +13,7 @@
   "plusplus": false,
   "quotmark": true,
   "undef": true,
-  "strict": true,
+  "strict": false,
   "trailing": true,
   "unused": false,
   "asi": false,

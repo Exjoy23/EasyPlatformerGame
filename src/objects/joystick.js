@@ -1,5 +1,3 @@
-'use strict';
-
 export default class Joystick {
   constructor(plugin, scene) {
     this.direction = null;
