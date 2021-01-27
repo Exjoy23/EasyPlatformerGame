@@ -23,16 +23,11 @@ export default class GameScene extends Phaser.Scene {
     const tileset = map.addTilesetImage('tileset', 'tiles');
     const platforms = map.createLayer('Platforms', tileset, 0, 0);
     platforms.setCollisionByExclusion(-1, true);
-
     const spawnPoint = map.findObject('Objects', obj => obj.name === 'Spawn Point 1');
     this.player = new Player(this, spawnPoint.x, spawnPoint.y, this.cameras.main);
     this.physics.add.collider(this.player.sprite, platforms);
-
     this.spikes = new Spikes(this.player, map, this.physics, this);
-
-    // this.cameras.main.setBounds(0, -200, backgroundImage.displayWidth, backgroundImage.displayHeight);
     this.fps = document.querySelector('.fps');
-
     this.joystick = new Joystick(this.plugins, this);
 
     // this.scale.on('orientationchange', function (orientation) {

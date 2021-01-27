@@ -12,11 +12,7 @@ export default class Joystick {
       // dir: '8dir',   // 'up&down'|0|'left&right'|1|'4dir'|2|'8dir'|3
       // forceMin: 16,
       // enable: true
-    })
-      .on('update', this.dumpJoyStickState, this);
-
-    this.text = scene.add.text(0, 0);
-    this.dumpJoyStickState();
+    }).on('update', this.dumpJoyStickState, this);
   }
 
   dumpJoyStickState() {

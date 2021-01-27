@@ -5,7 +5,6 @@ import Phaser from 'phaser';
 export default class Player {
   constructor(scene, x, y, camera) {
     this.scene = scene;
-
     const anims = scene.anims;
     anims.create({
       key: 'walk',
@@ -40,23 +39,15 @@ export default class Player {
       repeat: -1
     });
 
-    this.sprite = scene.physics.add
-      .sprite(x, y, 'player', 0)
-      .setBounce(0.1);
-
-    // this.sprite.body.setSize(25, 75).setOffset(40, 10);
+    this.sprite = scene.physics.add.sprite(x, y, 'player', 0);
     this.sprite.body.setSize(20, 75);
 
-    const { LEFT, RIGHT, UP, W, A, D, SPACE, ENTER } = Phaser.Input.Keyboard.KeyCodes;
+    const { LEFT, RIGHT, UP, SPACE } = Phaser.Input.Keyboard.KeyCodes;
     this.keys = scene.input.keyboard.addKeys({
       left: LEFT,
       right: RIGHT,
       up: UP,
-      space: SPACE,
-      enter: ENTER,
-      w: W,
-      a: A,
-      d: D
+      space: SPACE
     });
 
     camera.startFollow(this.sprite);
@@ -65,13 +56,13 @@ export default class Player {
   update(direction) {
     const { keys, sprite } = this;
 
-    if (keys.left.isDown || keys.a.isDown || direction === 'left' || direction === 'upleft') {
+    if (keys.left.isDown || direction === 'left' || direction === 'upleft') {
       sprite.setVelocityX(-200);
 
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
       }
-    } else if (keys.right.isDown || keys.d.isDown || direction === 'right' || direction === 'upright') {
+    } else if (keys.right.isDown || direction === 'right' || direction === 'upright') {
       sprite.setVelocityX(200);
 
       if (sprite.body.onFloor()) {
@@ -85,17 +76,15 @@ export default class Player {
       }
     }
 
-    if ((keys.space.isDown || keys.up.isDown || keys.w.isDown || direction === 'up' || direction === 'upright' || direction === 'upleft') && sprite.body.onFloor()) {
+    if ((keys.up.isDown || direction === 'up' || direction === 'upright' || direction === 'upleft') && sprite.body.onFloor()) {
       // this.scene.jumpSound.play();
       sprite.setVelocityY(-550);
       sprite.play('jump', true);
     }
 
     if (sprite.body.velocity.x > 0) {
-      // this.sprite.body.setOffset(40, 10);
       sprite.setFlipX(false);
     } else if (sprite.body.velocity.x < 0) {
-      // this.sprite.body.setOffset(10, 10);
       sprite.setFlipX(true);
     }
   }
