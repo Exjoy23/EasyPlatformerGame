@@ -25,7 +25,7 @@ export default class Player {
         start: 0,
         end: 59,
       }),
-      frameRate: 120,
+      frameRate: 90,
       repeat: -1
     });
 
@@ -36,7 +36,7 @@ export default class Player {
         start: 0,
         end: 59,
       }),
-      frameRate: 120,
+      frameRate: 60,
       repeat: -1
     });
 
@@ -44,7 +44,8 @@ export default class Player {
       .sprite(x, y, 'player', 0)
       .setBounce(0.1);
 
-    this.sprite.body.setSize(this.sprite.width - 60, this.sprite.height - 5).setOffset(30, 0);
+    // this.sprite.body.setSize(25, 75).setOffset(40, 10);
+    this.sprite.body.setSize(20, 75);
 
     const { LEFT, RIGHT, UP, W, A, D, SPACE, ENTER } = Phaser.Input.Keyboard.KeyCodes;
     this.keys = scene.input.keyboard.addKeys({
@@ -91,8 +92,10 @@ export default class Player {
     }
 
     if (sprite.body.velocity.x > 0) {
+      // this.sprite.body.setOffset(40, 10);
       sprite.setFlipX(false);
     } else if (sprite.body.velocity.x < 0) {
+      // this.sprite.body.setOffset(10, 10);
       sprite.setFlipX(true);
     }
   }
