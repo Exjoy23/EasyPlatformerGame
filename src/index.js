@@ -8,24 +8,26 @@ const config = {
     mode: Phaser.Scale.ENVELOP,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: 800,
-    height: 600
+    height: 600,
   },
   physics: {
     default: 'arcade',
     arcade: {
       gravity: { y: 1000 },
-      debug: true
-    }
+      debug: true,
+    },
   },
   plugins: {
-    global: [{
+    global: [
+      {
         key: 'rexVirtualJoyStick',
         plugin: VirtualJoyStickPlugin,
-        start: true
-    }]
-},
+        start: true,
+      },
+    ],
+  },
   backgroundColor: '#ffffff',
-  scene: [GameScene]
+  scene: [GameScene],
 };
 
 export default new Phaser.Game(config);

@@ -12,7 +12,7 @@ export default class Player {
         end: 59,
       }),
       frameRate: 120,
-      repeat: -1
+      repeat: -1,
     });
 
     anims.create({
@@ -23,7 +23,7 @@ export default class Player {
         end: 59,
       }),
       frameRate: 90,
-      repeat: -1
+      repeat: -1,
     });
 
     anims.create({
@@ -34,7 +34,7 @@ export default class Player {
         end: 59,
       }),
       frameRate: 60,
-      repeat: -1
+      repeat: -1,
     });
 
     this.sprite = scene.physics.add.sprite(x, y, 'player', 0);
@@ -45,8 +45,11 @@ export default class Player {
       left: LEFT,
       right: RIGHT,
       up: UP,
-      space: SPACE
+      space: SPACE,
     });
+
+    this.moveSpeed = 192;
+    this.jumpHeight = 576;
 
     camera.startFollow(this.sprite);
   }
@@ -55,13 +58,17 @@ export default class Player {
     const { keys, sprite } = this;
 
     if (keys.left.isDown || direction === 'left' || direction === 'upleft') {
-      sprite.setVelocityX(-200);
+      sprite.setVelocityX(-this.moveSpeed);
 
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
       }
-    } else if (keys.right.isDown || direction === 'right' || direction === 'upright') {
-      sprite.setVelocityX(200);
+    } else if (
+      keys.right.isDown ||
+      direction === 'right' ||
+      direction === 'upright'
+    ) {
+      sprite.setVelocityX(this.moveSpeed);
 
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
@@ -74,9 +81,15 @@ export default class Player {
       }
     }
 
-    if ((keys.up.isDown || direction === 'up' || direction === 'upright' || direction === 'upleft') && sprite.body.onFloor()) {
+    if (
+      (keys.up.isDown ||
+        direction === 'up' ||
+        direction === 'upright' ||
+        direction === 'upleft') &&
+      sprite.body.onFloor()
+    ) {
       // this.scene.jumpSound.play();
-      sprite.setVelocityY(-550);
+      sprite.setVelocityY(-this.jumpHeight);
       sprite.play('jump', true);
     }
 
@@ -87,13 +100,13 @@ export default class Player {
     }
   }
 
-  playerHit(player, spike) {
+  playerHit(player) {
     player.setVelocity(0, 0);
     player.setX(800);
     player.setY(0);
     player.play('idle', true);
     player.setAlpha(0);
-    let tw = this.tweens.add({
+    this.tweens.add({
       targets: player,
       alpha: 1,
       duration: 100,

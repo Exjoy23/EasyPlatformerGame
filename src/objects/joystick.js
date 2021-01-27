@@ -1,16 +1,19 @@
 export default class Joystick {
   constructor(plugin, scene) {
     this.direction = null;
-    this.joyStick = plugin.get('rexVirtualJoyStick').add(scene, {
-      x: 125,
-      y: 400,
-      radius: 100,
-      base: scene.add.circle(0, 0, 70, 0x888888),
-      thumb: scene.add.circle(0, 0, 35, 0xcccccc),
-      // dir: '8dir',   // 'up&down'|0|'left&right'|1|'4dir'|2|'8dir'|3
-      // forceMin: 16,
-      // enable: true
-    }).on('update', this.dumpJoyStickState, this);
+    this.joyStick = plugin
+      .get('rexVirtualJoyStick')
+      .add(scene, {
+        x: 125,
+        y: 400,
+        radius: 100,
+        base: scene.add.circle(0, 0, 70, 0x888888),
+        thumb: scene.add.circle(0, 0, 35, 0xcccccc),
+        // dir: '8dir',   // 'up&down'|0|'left&right'|1|'4dir'|2|'8dir'|3
+        // forceMin: 16,
+        // enable: true
+      })
+      .on('update', this.dumpJoyStickState, this);
   }
 
   dumpJoyStickState() {

@@ -12,17 +12,32 @@ export default class GameScene extends Phaser.Scene {
     this.load.image('tiles', './assets/tilesets/tileset.png');
     this.load.image('spike', './assets/images/spike.png');
     this.load.tilemapTiledJSON('map', './assets/tilemaps/map.json');
-    this.load.atlas('player', './assets/images/ninja.png',
-      './assets/images/ninja_atlas.json');
+    this.load.atlas(
+      'player',
+      './assets/images/ninja.png',
+      './assets/images/ninja_atlas.json',
+    );
   }
 
   create() {
-    const map = this.make.tilemap({ key: 'map', tileWidth: 64, tileHeight: 64 });
+    const map = this.make.tilemap({
+      key: 'map',
+      tileWidth: 64,
+      tileHeight: 64,
+    });
     const tileset = map.addTilesetImage('tileset', 'tiles');
     const platforms = map.createLayer('Platforms', tileset, 0, 0);
     platforms.setCollisionByExclusion(-1, true);
-    const spawnPoint = map.findObject('Objects', obj => obj.name === 'Spawn Point 1');
-    this.player = new Player(this, spawnPoint.x, spawnPoint.y, this.cameras.main);
+    const spawnPoint = map.findObject(
+      'Objects',
+      (obj) => obj.name === 'Spawn Point 1',
+    );
+    this.player = new Player(
+      this,
+      spawnPoint.x,
+      spawnPoint.y,
+      this.cameras.main,
+    );
     this.physics.add.collider(this.player.sprite, platforms);
     this.spikes = new Spikes(this.player, map, this.physics, this);
     this.fps = document.querySelector('.fps');
