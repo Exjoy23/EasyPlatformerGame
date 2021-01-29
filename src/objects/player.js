@@ -48,26 +48,54 @@ export default class Player {
       space: SPACE,
     });
 
+    this.buttonJump = document.querySelector('.button--up');
+    this.buttonMoveLeft = document.querySelector('.button--left');
+    this.buttonMoveRight = document.querySelector('.button--right');
+
+    this.jump = false;
+    this.moveLeft = false;
+    this.moveRight = false;
+
+    this.buttonJump.addEventListener('touchstart', () => {
+      this.jump = true;
+    });
+
+    this.buttonJump.addEventListener('touchend', () => {
+      this.jump = false;
+    });
+
+    this.buttonMoveLeft.addEventListener('touchstart', () => {
+      this.moveLeft = true;
+    });
+
+    this.buttonMoveLeft.addEventListener('touchend', () => {
+      this.moveLeft = false;
+    });
+
+    this.buttonMoveRight.addEventListener('touchstart', () => {
+      this.moveRight = true;
+    });
+
+    this.buttonMoveRight.addEventListener('touchend', () => {
+      this.moveRight = false;
+    });
+
     this.moveSpeed = 192;
     this.jumpHeight = 576;
 
     camera.startFollow(this.sprite);
   }
 
-  update(direction) {
+  update() {
     const { keys, sprite } = this;
 
-    if (keys.left.isDown || direction === 'left' || direction === 'upleft') {
+    if (keys.left.isDown || this.moveLeft) {
       sprite.setVelocityX(-this.moveSpeed);
 
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
       }
-    } else if (
-      keys.right.isDown ||
-      direction === 'right' ||
-      direction === 'upright'
-    ) {
+    } else if (keys.right.isDown || this.moveRight) {
       sprite.setVelocityX(this.moveSpeed);
 
       if (sprite.body.onFloor()) {
@@ -81,13 +109,7 @@ export default class Player {
       }
     }
 
-    if (
-      (keys.up.isDown ||
-        direction === 'up' ||
-        direction === 'upright' ||
-        direction === 'upleft') &&
-      sprite.body.onFloor()
-    ) {
+    if ((keys.up.isDown || this.jump) && sprite.body.onFloor()) {
       // this.scene.jumpSound.play();
       sprite.setVelocityY(-this.jumpHeight);
       sprite.play('jump', true);
@@ -102,8 +124,8 @@ export default class Player {
 
   playerHit(player) {
     player.setVelocity(0, 0);
-    player.setX(800);
-    player.setY(0);
+    player.setX(this.spawnPoint.x);
+    player.setY(this.spawnPoint.y);
     player.play('idle', true);
     player.setAlpha(0);
     this.tweens.add({
@@ -111,7 +133,7 @@ export default class Player {
       alpha: 1,
       duration: 100,
       ease: 'Linear',
-      repeat: 5,
+      repeat: 10,
     });
   }
 

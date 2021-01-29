@@ -8,13 +8,13 @@ const config = {
     mode: Phaser.Scale.ENVELOP,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: 800,
-    height: 600,
+    height: 450,
   },
   physics: {
     default: 'arcade',
     arcade: {
       gravity: { y: 1000 },
-      debug: true,
+      debug: false,
     },
   },
   plugins: {

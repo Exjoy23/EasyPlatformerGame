@@ -3,6 +3,10 @@
   overflow: hidden;
 
   background-color: #000000;
+
+  user-select: none;
+
+  touch-action: none;
 }
 
 .fps {
@@ -14,4 +18,39 @@
   font-size: 40px;
   font-family: sans-serif;
   color: #000000;
+}
+
+.button {
+  position: absolute;
+  bottom: 10vh;
+
+  width: 12vw;
+  height: 12vw;
+
+  background-color: #ff5722;
+  background-image: url(../assets/images/control_button.svg);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.button--up {
+  right: 10vw;
+}
+
+.button--left {
+  left: 10vw;
+
+  transform: rotate(-90deg);
+}
+
+.button--right {
+  left: 25vw;
+
+  transform: rotate(90deg);
+}
+
+@media (min-width: 1400px) {
+  .control-buttons {
+    display: none;
+  }
 }

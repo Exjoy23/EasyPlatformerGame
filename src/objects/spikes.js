@@ -11,7 +11,7 @@ export default class Spikes {
       const spike = this.spikes
         .create(spikeObject.x, spikeObject.y - spikeObject.height, 'spike')
         .setOrigin(0, 0);
-      spike.body.setSize(spike.width - 30, spike.height - 30).setOffset(15, 30);
+      spike.body.setSize(50, 34).setOffset(7, 30);
     });
 
     physics.add.collider(

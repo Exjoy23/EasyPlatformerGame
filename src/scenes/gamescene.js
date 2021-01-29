@@ -1,6 +1,5 @@
 import Phaser from 'phaser';
 import Spikes from '../objects/spikes';
-import Joystick from '../objects/joystick';
 import Player from '../objects/player';
 
 export default class GameScene extends Phaser.Scene {
@@ -28,20 +27,20 @@ export default class GameScene extends Phaser.Scene {
     const tileset = map.addTilesetImage('tileset', 'tiles');
     const platforms = map.createLayer('Platforms', tileset, 0, 0);
     platforms.setCollisionByExclusion(-1, true);
-    const spawnPoint = map.findObject(
+    this.spawnPoint = map.findObject(
       'Objects',
       (obj) => obj.name === 'Spawn Point 1',
     );
     this.player = new Player(
       this,
-      spawnPoint.x,
-      spawnPoint.y,
+      this.spawnPoint.x,
+      this.spawnPoint.y,
       this.cameras.main,
     );
     this.physics.add.collider(this.player.sprite, platforms);
     this.spikes = new Spikes(this.player, map, this.physics, this);
     this.fps = document.querySelector('.fps');
-    this.joystick = new Joystick(this.plugins, this);
+    // this.joystick = new Joystick(this, 125, 400);
 
     // this.scale.on('orientationchange', function (orientation) {
     //   if (orientation === Phaser.Scale.PORTRAIT) {
@@ -53,8 +52,8 @@ export default class GameScene extends Phaser.Scene {
   }
 
   update() {
-    // this.fps.textContent = (this.game.loop.actualFps).toFixed(0);
+    // this.fps.textContent = this.game.loop.actualFps.toFixed(0);
 
-    this.player.update(this.joystick.getDirection());
+    this.player.update();
   }
 }
