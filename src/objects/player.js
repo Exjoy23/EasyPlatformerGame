@@ -83,10 +83,14 @@ export default class Player {
     this.moveSpeed = 192;
     this.jumpHeight = 576;
 
+    this.direction = 1;
+    this.letThrow = true;
+    this.shurikenCount = 10;
+
     camera.startFollow(this.sprite);
   }
 
-  update() {
+  update(shuriken) {
     const { keys, sprite } = this;
 
     if (keys.left.isDown || this.moveLeft) {
@@ -117,8 +121,22 @@ export default class Player {
 
     if (sprite.body.velocity.x > 0) {
       sprite.setFlipX(false);
+      this.direction = 1;
     } else if (sprite.body.velocity.x < 0) {
       sprite.setFlipX(true);
+      this.direction = -1;
+    }
+
+    if (keys.space.isDown && this.letThrow && this.shurikenCount) {
+      shuriken.shurikenThrow(this.direction);
+      this.letThrow = false;
+
+      if (this.shurikenCount > 0) {
+        this.shurikenCount--;
+      }
+      setTimeout(() => {
+        this.letThrow = true;
+      }, 400);
     }
   }
 
@@ -139,5 +157,9 @@ export default class Player {
 
   destroy() {
     this.sprite.destroy();
+  }
+
+  shurikenIncrement() {
+    this.shurikenCount++;
   }
 }

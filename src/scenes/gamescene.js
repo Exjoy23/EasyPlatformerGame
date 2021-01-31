@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import Spikes from '../objects/spikes';
 import Player from '../objects/player';
+import Shuriken from '../objects/shuriken';
 
 export default class GameScene extends Phaser.Scene {
   constructor() {
@@ -8,6 +9,10 @@ export default class GameScene extends Phaser.Scene {
   }
 
   preload() {
+    this.load.spritesheet('shuriken', './assets/images/shuriken.png', {
+      frameWidth: 30,
+      frameHeight: 31,
+    });
     this.load.image('tiles', './assets/tilesets/tileset.png');
     this.load.image('spike', './assets/images/spike.png');
     this.load.tilemapTiledJSON('map', './assets/tilemaps/map.json');
@@ -38,22 +43,14 @@ export default class GameScene extends Phaser.Scene {
       this.cameras.main,
     );
     this.physics.add.collider(this.player.sprite, platforms);
-    this.spikes = new Spikes(this.player, map, this.physics, this);
+    this.spikes = new Spikes(this.player, map, this);
+    this.shuriken = new Shuriken(this.player.sprite, this, platforms);
     this.fps = document.querySelector('.fps');
-    // this.joystick = new Joystick(this, 125, 400);
-
-    // this.scale.on('orientationchange', function (orientation) {
-    //   if (orientation === Phaser.Scale.PORTRAIT) {
-    //     console.log('portrait');
-    //   } else if (orientation === Phaser.Scale.LANDSCAPE) {
-    //     console.log('landscape');
-    //   }
-    // });
   }
 
   update() {
     // this.fps.textContent = this.game.loop.actualFps.toFixed(0);
 
-    this.player.update();
+    this.player.update(this.shuriken);
   }
 }

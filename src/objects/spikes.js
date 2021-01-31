@@ -1,6 +1,6 @@
 export default class Spikes {
-  constructor(player, map, physics, scene) {
-    this.spikes = physics.add.group({
+  constructor(player, map, scene) {
+    this.spikes = scene.physics.add.group({
       allowGravity: false,
       immovable: true,
     });
@@ -14,7 +14,7 @@ export default class Spikes {
       spike.body.setSize(50, 34).setOffset(7, 30);
     });
 
-    physics.add.collider(
+    scene.physics.add.collider(
       player.sprite,
       this.spikes,
       player.playerHit,
