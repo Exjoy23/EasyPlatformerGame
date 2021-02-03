@@ -46,11 +46,12 @@ export default class GameScene extends Phaser.Scene {
     this.spikes = new Spikes(this.player, map, this);
     this.shuriken = new Shuriken(this.player.sprite, this, platforms);
     this.fps = document.querySelector('.fps');
+    this.shurikenCount = document.querySelector('.shurikens__count');
   }
 
   update() {
-    // this.fps.textContent = this.game.loop.actualFps.toFixed(0);
-
+    this.fps.textContent = this.game.loop.actualFps.toFixed(0);
+    this.shurikenCount.textContent = this.player.getShurikenCount();
     this.player.update(this.shuriken);
   }
 }

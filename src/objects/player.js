@@ -51,10 +51,12 @@ export default class Player {
     this.buttonJump = document.querySelector('.button--up');
     this.buttonMoveLeft = document.querySelector('.button--left');
     this.buttonMoveRight = document.querySelector('.button--right');
+    this.buttonShuriken = document.querySelector('.button--shuriken');
 
     this.jump = false;
     this.moveLeft = false;
     this.moveRight = false;
+    this.shurikenThrow = false;
 
     this.buttonJump.addEventListener('touchstart', () => {
       this.jump = true;
@@ -80,12 +82,20 @@ export default class Player {
       this.moveRight = false;
     });
 
+    this.buttonShuriken.addEventListener('touchstart', () => {
+      this.shurikenThrow = true;
+    });
+
+    this.buttonShuriken.addEventListener('touchend', () => {
+      this.shurikenThrow = false;
+    });
+
     this.moveSpeed = 192;
     this.jumpHeight = 576;
 
     this.direction = 1;
     this.letThrow = true;
-    this.shurikenCount = 10;
+    this.shurikenCount = 99;
 
     camera.startFollow(this.sprite);
   }
@@ -99,17 +109,13 @@ export default class Player {
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
       }
-    } else if (keys.right.isDown || this.moveRight) {
+    }
+
+    if (keys.right.isDown || this.moveRight) {
       sprite.setVelocityX(this.moveSpeed);
 
       if (sprite.body.onFloor()) {
         sprite.play('walk', true);
-      }
-    } else {
-      sprite.setVelocityX(0);
-
-      if (sprite.body.onFloor()) {
-        sprite.play('idle', true);
       }
     }
 
@@ -119,16 +125,40 @@ export default class Player {
       sprite.play('jump', true);
     }
 
+    if (
+      !(
+        keys.left.isDown ||
+        keys.right.isDown ||
+        keys.up.isDown ||
+        this.moveLeft ||
+        this.moveRight ||
+        this.jump
+      )
+    ) {
+      sprite.setVelocityX(0);
+
+      if (sprite.body.onFloor() && !(keys.space.isDown || this.shurikenThrow)) {
+        sprite.play('idle', true);
+      }
+    }
+
     if (sprite.body.velocity.x > 0) {
       sprite.setFlipX(false);
       this.direction = 1;
-    } else if (sprite.body.velocity.x < 0) {
+    }
+
+    if (sprite.body.velocity.x < 0) {
       sprite.setFlipX(true);
       this.direction = -1;
     }
 
-    if (keys.space.isDown && this.letThrow && this.shurikenCount) {
+    if (
+      (keys.space.isDown || this.shurikenThrow) &&
+      this.letThrow &&
+      this.shurikenCount
+    ) {
       shuriken.shurikenThrow(this.direction);
+      sprite.play('walk', true);
       this.letThrow = false;
 
       if (this.shurikenCount > 0) {
@@ -136,7 +166,7 @@ export default class Player {
       }
       setTimeout(() => {
         this.letThrow = true;
-      }, 400);
+      }, 200);
     }
   }
 
@@ -161,5 +191,9 @@ export default class Player {
 
   shurikenIncrement() {
     this.shurikenCount++;
+  }
+
+  getShurikenCount() {
+    return this.shurikenCount;
   }
 }
