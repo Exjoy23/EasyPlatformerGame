@@ -37,6 +37,28 @@ export default class Player {
       repeat: -1,
     });
 
+    anims.create({
+      key: 'throw-jump',
+      frames: anims.generateFrameNames('player', {
+        prefix: 'ninja_throw_jump_',
+        start: 0,
+        end: 59,
+      }),
+      frameRate: 120,
+      repeat: -1,
+    });
+
+    anims.create({
+      key: 'throw-idle',
+      frames: anims.generateFrameNames('player', {
+        prefix: 'ninja_throw_idle_',
+        start: 0,
+        end: 59,
+      }),
+      frameRate: 180,
+      repeat: -1,
+    });
+
     this.sprite = scene.physics.add.sprite(x, y, 'player', 0);
     this.sprite.body.setSize(20, 75);
 
@@ -48,53 +70,53 @@ export default class Player {
       space: SPACE,
     });
 
-    this.buttonJump = document.querySelector('.button--up');
-    this.buttonMoveLeft = document.querySelector('.button--left');
-    this.buttonMoveRight = document.querySelector('.button--right');
-    this.buttonShuriken = document.querySelector('.button--shuriken');
+    const buttonJump = document.querySelector('.button--up');
+    const buttonMoveLeft = document.querySelector('.button--left');
+    const buttonMoveRight = document.querySelector('.button--right');
+    const buttonShuriken = document.querySelector('.button--shuriken');
 
     this.jump = false;
     this.moveLeft = false;
     this.moveRight = false;
     this.shurikenThrow = false;
 
-    this.buttonJump.addEventListener('touchstart', () => {
+    buttonJump.addEventListener('touchstart', () => {
       this.jump = true;
     });
 
-    this.buttonJump.addEventListener('touchend', () => {
+    buttonJump.addEventListener('touchend', () => {
       this.jump = false;
     });
 
-    this.buttonMoveLeft.addEventListener('touchstart', () => {
+    buttonMoveLeft.addEventListener('touchstart', () => {
       this.moveLeft = true;
     });
 
-    this.buttonMoveLeft.addEventListener('touchend', () => {
+    buttonMoveLeft.addEventListener('touchend', () => {
       this.moveLeft = false;
     });
 
-    this.buttonMoveRight.addEventListener('touchstart', () => {
+    buttonMoveRight.addEventListener('touchstart', () => {
       this.moveRight = true;
     });
 
-    this.buttonMoveRight.addEventListener('touchend', () => {
+    buttonMoveRight.addEventListener('touchend', () => {
       this.moveRight = false;
     });
 
-    this.buttonShuriken.addEventListener('touchstart', () => {
+    buttonShuriken.addEventListener('touchstart', () => {
       this.shurikenThrow = true;
     });
 
-    this.buttonShuriken.addEventListener('touchend', () => {
+    buttonShuriken.addEventListener('touchend', () => {
       this.shurikenThrow = false;
     });
 
     this.moveSpeed = 192;
     this.jumpHeight = 576;
 
-    this.direction = 1;
-    this.letThrow = true;
+    this.directionThrowShuriken = 1;
+    this.letThrowShuriken = true;
     this.shurikenCount = 99;
 
     camera.startFollow(this.sprite);
@@ -144,28 +166,44 @@ export default class Player {
 
     if (sprite.body.velocity.x > 0) {
       sprite.setFlipX(false);
-      this.direction = 1;
+      this.directionThrowShuriken = 1;
     }
 
     if (sprite.body.velocity.x < 0) {
       sprite.setFlipX(true);
-      this.direction = -1;
+      this.directionThrowShuriken = -1;
     }
 
     if (
       (keys.space.isDown || this.shurikenThrow) &&
-      this.letThrow &&
+      this.letThrowShuriken &&
       this.shurikenCount
     ) {
-      shuriken.shurikenThrow(this.direction);
-      sprite.play('walk', true);
-      this.letThrow = false;
+      shuriken.shurikenThrow(this.directionThrowShuriken);
+
+      if (
+        sprite.body.onFloor() &&
+        !(
+          keys.left.isDown ||
+          this.moveLeft ||
+          keys.right.isDown ||
+          this.moveRight
+        )
+      ) {
+        sprite.play('throw-idle', true);
+      }
+
+      if (!sprite.body.onFloor()) {
+        sprite.play('throw-jump', true);
+      }
+
+      this.letThrowShuriken = false;
 
       if (this.shurikenCount > 0) {
         this.shurikenCount--;
       }
       setTimeout(() => {
-        this.letThrow = true;
+        this.letThrowShuriken = true;
       }, 200);
     }
   }
