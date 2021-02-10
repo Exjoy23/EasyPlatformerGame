@@ -133,8 +133,8 @@
         {
             "filename": "ninja_idle_10",
             "frame": {
-                "x": 831,
-                "y": 1,
+                "x": 1,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -146,8 +146,8 @@
         {
             "filename": "ninja_idle_11",
             "frame": {
-                "x": 914,
-                "y": 1,
+                "x": 84,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -159,8 +159,8 @@
         {
             "filename": "ninja_idle_12",
             "frame": {
-                "x": 997,
-                "y": 1,
+                "x": 167,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -172,8 +172,8 @@
         {
             "filename": "ninja_idle_13",
             "frame": {
-                "x": 1080,
-                "y": 1,
+                "x": 250,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -185,8 +185,8 @@
         {
             "filename": "ninja_idle_14",
             "frame": {
-                "x": 1163,
-                "y": 1,
+                "x": 333,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -198,8 +198,8 @@
         {
             "filename": "ninja_idle_15",
             "frame": {
-                "x": 1246,
-                "y": 1,
+                "x": 416,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -211,8 +211,8 @@
         {
             "filename": "ninja_idle_16",
             "frame": {
-                "x": 1329,
-                "y": 1,
+                "x": 499,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -224,8 +224,8 @@
         {
             "filename": "ninja_idle_17",
             "frame": {
-                "x": 1412,
-                "y": 1,
+                "x": 582,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -237,8 +237,8 @@
         {
             "filename": "ninja_idle_18",
             "frame": {
-                "x": 1495,
-                "y": 1,
+                "x": 665,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -250,8 +250,8 @@
         {
             "filename": "ninja_idle_19",
             "frame": {
-                "x": 1578,
-                "y": 1,
+                "x": 748,
+                "y": 93,
                 "w": 81,
                 "h": 90
             },
@@ -263,8 +263,8 @@
         {
             "filename": "ninja_idle_20",
             "frame": {
-                "x": 1661,
-                "y": 1,
+                "x": 1,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -276,8 +276,8 @@
         {
             "filename": "ninja_idle_21",
             "frame": {
-                "x": 1744,
-                "y": 1,
+                "x": 84,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -289,8 +289,8 @@
         {
             "filename": "ninja_idle_22",
             "frame": {
-                "x": 1827,
-                "y": 1,
+                "x": 167,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -302,8 +302,8 @@
         {
             "filename": "ninja_idle_23",
             "frame": {
-                "x": 1910,
-                "y": 1,
+                "x": 250,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -315,8 +315,8 @@
         {
             "filename": "ninja_idle_24",
             "frame": {
-                "x": 1993,
-                "y": 1,
+                "x": 333,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -328,8 +328,8 @@
         {
             "filename": "ninja_idle_25",
             "frame": {
-                "x": 2076,
-                "y": 1,
+                "x": 416,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -341,8 +341,8 @@
         {
             "filename": "ninja_idle_26",
             "frame": {
-                "x": 2159,
-                "y": 1,
+                "x": 499,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -354,8 +354,8 @@
         {
             "filename": "ninja_idle_27",
             "frame": {
-                "x": 2242,
-                "y": 1,
+                "x": 582,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -367,8 +367,8 @@
         {
             "filename": "ninja_idle_28",
             "frame": {
-                "x": 2325,
-                "y": 1,
+                "x": 665,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -380,8 +380,8 @@
         {
             "filename": "ninja_idle_29",
             "frame": {
-                "x": 2408,
-                "y": 1,
+                "x": 748,
+                "y": 185,
                 "w": 81,
                 "h": 90
             },
@@ -394,7 +394,7 @@
             "filename": "ninja_jump_0",
             "frame": {
                 "x": 1,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -407,7 +407,7 @@
             "filename": "ninja_jump_1",
             "frame": {
                 "x": 84,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -420,7 +420,7 @@
             "filename": "ninja_jump_2",
             "frame": {
                 "x": 167,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -433,7 +433,7 @@
             "filename": "ninja_jump_3",
             "frame": {
                 "x": 250,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -446,7 +446,7 @@
             "filename": "ninja_jump_4",
             "frame": {
                 "x": 333,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -459,7 +459,7 @@
             "filename": "ninja_jump_5",
             "frame": {
                 "x": 416,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -472,7 +472,7 @@
             "filename": "ninja_jump_6",
             "frame": {
                 "x": 499,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -485,7 +485,7 @@
             "filename": "ninja_jump_7",
             "frame": {
                 "x": 582,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -498,7 +498,7 @@
             "filename": "ninja_jump_8",
             "frame": {
                 "x": 665,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -511,7 +511,7 @@
             "filename": "ninja_jump_9",
             "frame": {
                 "x": 748,
-                "y": 93,
+                "y": 277,
                 "w": 81,
                 "h": 90
             },
@@ -523,8 +523,8 @@
         {
             "filename": "ninja_jump_10",
             "frame": {
-                "x": 831,
-                "y": 93,
+                "x": 1,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -536,8 +536,8 @@
         {
             "filename": "ninja_jump_11",
             "frame": {
-                "x": 914,
-                "y": 93,
+                "x": 84,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -549,8 +549,8 @@
         {
             "filename": "ninja_jump_12",
             "frame": {
-                "x": 997,
-                "y": 93,
+                "x": 167,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -562,8 +562,8 @@
         {
             "filename": "ninja_jump_13",
             "frame": {
-                "x": 1080,
-                "y": 93,
+                "x": 250,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -575,8 +575,8 @@
         {
             "filename": "ninja_jump_14",
             "frame": {
-                "x": 1163,
-                "y": 93,
+                "x": 333,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -588,8 +588,8 @@
         {
             "filename": "ninja_jump_15",
             "frame": {
-                "x": 1246,
-                "y": 93,
+                "x": 416,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -601,8 +601,8 @@
         {
             "filename": "ninja_jump_16",
             "frame": {
-                "x": 1329,
-                "y": 93,
+                "x": 499,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -614,8 +614,8 @@
         {
             "filename": "ninja_jump_17",
             "frame": {
-                "x": 1412,
-                "y": 93,
+                "x": 582,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -627,8 +627,8 @@
         {
             "filename": "ninja_jump_18",
             "frame": {
-                "x": 1495,
-                "y": 93,
+                "x": 665,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -640,8 +640,8 @@
         {
             "filename": "ninja_jump_19",
             "frame": {
-                "x": 1578,
-                "y": 93,
+                "x": 748,
+                "y": 369,
                 "w": 81,
                 "h": 90
             },
@@ -653,8 +653,8 @@
         {
             "filename": "ninja_jump_20",
             "frame": {
-                "x": 1661,
-                "y": 93,
+                "x": 1,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -666,8 +666,8 @@
         {
             "filename": "ninja_jump_21",
             "frame": {
-                "x": 1744,
-                "y": 93,
+                "x": 84,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -679,8 +679,8 @@
         {
             "filename": "ninja_jump_22",
             "frame": {
-                "x": 1827,
-                "y": 93,
+                "x": 167,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -692,8 +692,8 @@
         {
             "filename": "ninja_jump_23",
             "frame": {
-                "x": 1910,
-                "y": 93,
+                "x": 250,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -705,8 +705,8 @@
         {
             "filename": "ninja_jump_24",
             "frame": {
-                "x": 1993,
-                "y": 93,
+                "x": 333,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -718,8 +718,8 @@
         {
             "filename": "ninja_jump_25",
             "frame": {
-                "x": 2076,
-                "y": 93,
+                "x": 416,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -731,8 +731,8 @@
         {
             "filename": "ninja_jump_26",
             "frame": {
-                "x": 2159,
-                "y": 93,
+                "x": 499,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -744,8 +744,8 @@
         {
             "filename": "ninja_jump_27",
             "frame": {
-                "x": 2242,
-                "y": 93,
+                "x": 582,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -757,8 +757,8 @@
         {
             "filename": "ninja_jump_28",
             "frame": {
-                "x": 2325,
-                "y": 93,
+                "x": 665,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -770,788 +770,8 @@
         {
             "filename": "ninja_jump_29",
             "frame": {
-                "x": 2408,
-                "y": 93,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_0",
-            "frame": {
-                "x": 1,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_1",
-            "frame": {
-                "x": 84,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_2",
-            "frame": {
-                "x": 167,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_3",
-            "frame": {
-                "x": 250,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_4",
-            "frame": {
-                "x": 333,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_5",
-            "frame": {
-                "x": 416,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_6",
-            "frame": {
-                "x": 499,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_7",
-            "frame": {
-                "x": 582,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_8",
-            "frame": {
-                "x": 665,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_9",
-            "frame": {
                 "x": 748,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_10",
-            "frame": {
-                "x": 831,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_11",
-            "frame": {
-                "x": 914,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_12",
-            "frame": {
-                "x": 997,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_13",
-            "frame": {
-                "x": 1080,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_14",
-            "frame": {
-                "x": 1163,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_15",
-            "frame": {
-                "x": 1246,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_16",
-            "frame": {
-                "x": 1329,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_17",
-            "frame": {
-                "x": 1412,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_18",
-            "frame": {
-                "x": 1495,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_19",
-            "frame": {
-                "x": 1578,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_20",
-            "frame": {
-                "x": 1661,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_21",
-            "frame": {
-                "x": 1744,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_22",
-            "frame": {
-                "x": 1827,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_23",
-            "frame": {
-                "x": 1910,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_24",
-            "frame": {
-                "x": 1993,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_25",
-            "frame": {
-                "x": 2076,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_26",
-            "frame": {
-                "x": 2159,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_27",
-            "frame": {
-                "x": 2242,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_28",
-            "frame": {
-                "x": 2325,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_idle_29",
-            "frame": {
-                "x": 2408,
-                "y": 185,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_0",
-            "frame": {
-                "x": 1,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_1",
-            "frame": {
-                "x": 84,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_2",
-            "frame": {
-                "x": 167,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_3",
-            "frame": {
-                "x": 250,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_4",
-            "frame": {
-                "x": 333,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_5",
-            "frame": {
-                "x": 416,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_6",
-            "frame": {
-                "x": 499,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_7",
-            "frame": {
-                "x": 582,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_8",
-            "frame": {
-                "x": 665,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_9",
-            "frame": {
-                "x": 748,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_10",
-            "frame": {
-                "x": 831,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_11",
-            "frame": {
-                "x": 914,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_12",
-            "frame": {
-                "x": 997,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_13",
-            "frame": {
-                "x": 1080,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_14",
-            "frame": {
-                "x": 1163,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_15",
-            "frame": {
-                "x": 1246,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_16",
-            "frame": {
-                "x": 1329,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_17",
-            "frame": {
-                "x": 1412,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_18",
-            "frame": {
-                "x": 1495,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_19",
-            "frame": {
-                "x": 1578,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_20",
-            "frame": {
-                "x": 1661,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_21",
-            "frame": {
-                "x": 1744,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_22",
-            "frame": {
-                "x": 1827,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_23",
-            "frame": {
-                "x": 1910,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_24",
-            "frame": {
-                "x": 1993,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_25",
-            "frame": {
-                "x": 2076,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_26",
-            "frame": {
-                "x": 2159,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_27",
-            "frame": {
-                "x": 2242,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_28",
-            "frame": {
-                "x": 2325,
-                "y": 277,
-                "w": 81,
-                "h": 90
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "ninja_throw_jump_29",
-            "frame": {
-                "x": 2408,
-                "y": 277,
+                "y": 461,
                 "w": 81,
                 "h": 90
             },
@@ -1564,7 +784,7 @@
             "filename": "ninja_walk_0",
             "frame": {
                 "x": 1,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1577,7 +797,7 @@
             "filename": "ninja_walk_1",
             "frame": {
                 "x": 84,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1590,7 +810,7 @@
             "filename": "ninja_walk_2",
             "frame": {
                 "x": 167,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1603,7 +823,7 @@
             "filename": "ninja_walk_3",
             "frame": {
                 "x": 250,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1616,7 +836,7 @@
             "filename": "ninja_walk_4",
             "frame": {
                 "x": 333,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1629,7 +849,7 @@
             "filename": "ninja_walk_5",
             "frame": {
                 "x": 416,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1642,7 +862,7 @@
             "filename": "ninja_walk_6",
             "frame": {
                 "x": 499,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1655,7 +875,7 @@
             "filename": "ninja_walk_7",
             "frame": {
                 "x": 582,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1668,7 +888,7 @@
             "filename": "ninja_walk_8",
             "frame": {
                 "x": 665,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1681,7 +901,7 @@
             "filename": "ninja_walk_9",
             "frame": {
                 "x": 748,
-                "y": 369,
+                "y": 553,
                 "w": 81,
                 "h": 90
             },
@@ -1693,8 +913,8 @@
         {
             "filename": "ninja_walk_10",
             "frame": {
-                "x": 831,
-                "y": 369,
+                "x": 1,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1706,8 +926,8 @@
         {
             "filename": "ninja_walk_11",
             "frame": {
-                "x": 914,
-                "y": 369,
+                "x": 84,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1719,8 +939,8 @@
         {
             "filename": "ninja_walk_12",
             "frame": {
-                "x": 997,
-                "y": 369,
+                "x": 167,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1732,8 +952,8 @@
         {
             "filename": "ninja_walk_13",
             "frame": {
-                "x": 1080,
-                "y": 369,
+                "x": 250,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1745,8 +965,8 @@
         {
             "filename": "ninja_walk_14",
             "frame": {
-                "x": 1163,
-                "y": 369,
+                "x": 333,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1758,8 +978,8 @@
         {
             "filename": "ninja_walk_15",
             "frame": {
-                "x": 1246,
-                "y": 369,
+                "x": 416,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1771,8 +991,8 @@
         {
             "filename": "ninja_walk_16",
             "frame": {
-                "x": 1329,
-                "y": 369,
+                "x": 499,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1784,8 +1004,8 @@
         {
             "filename": "ninja_walk_17",
             "frame": {
-                "x": 1412,
-                "y": 369,
+                "x": 582,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1797,8 +1017,8 @@
         {
             "filename": "ninja_walk_18",
             "frame": {
-                "x": 1495,
-                "y": 369,
+                "x": 665,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1810,8 +1030,8 @@
         {
             "filename": "ninja_walk_19",
             "frame": {
-                "x": 1578,
-                "y": 369,
+                "x": 748,
+                "y": 645,
                 "w": 81,
                 "h": 90
             },
@@ -1823,8 +1043,8 @@
         {
             "filename": "ninja_walk_20",
             "frame": {
-                "x": 1661,
-                "y": 369,
+                "x": 1,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1836,8 +1056,8 @@
         {
             "filename": "ninja_walk_21",
             "frame": {
-                "x": 1744,
-                "y": 369,
+                "x": 84,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1849,8 +1069,8 @@
         {
             "filename": "ninja_walk_22",
             "frame": {
-                "x": 1827,
-                "y": 369,
+                "x": 167,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1862,8 +1082,8 @@
         {
             "filename": "ninja_walk_23",
             "frame": {
-                "x": 1910,
-                "y": 369,
+                "x": 250,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1875,8 +1095,8 @@
         {
             "filename": "ninja_walk_24",
             "frame": {
-                "x": 1993,
-                "y": 369,
+                "x": 333,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1888,8 +1108,8 @@
         {
             "filename": "ninja_walk_25",
             "frame": {
-                "x": 2076,
-                "y": 369,
+                "x": 416,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1901,8 +1121,8 @@
         {
             "filename": "ninja_walk_26",
             "frame": {
-                "x": 2159,
-                "y": 369,
+                "x": 499,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1914,8 +1134,8 @@
         {
             "filename": "ninja_walk_27",
             "frame": {
-                "x": 2242,
-                "y": 369,
+                "x": 582,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1927,8 +1147,8 @@
         {
             "filename": "ninja_walk_28",
             "frame": {
-                "x": 2325,
-                "y": 369,
+                "x": 665,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
@@ -1940,8 +1160,8 @@
         {
             "filename": "ninja_walk_29",
             "frame": {
-                "x": 2408,
-                "y": 369,
+                "x": 748,
+                "y": 737,
                 "w": 81,
                 "h": 90
             },
