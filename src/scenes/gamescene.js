@@ -47,18 +47,6 @@ export default class GameScene extends Phaser.Scene {
     this.shuriken = new Shuriken(this.player.sprite, this, platforms);
     this.fps = document.querySelector('.fps');
     this.shurikenCount = document.querySelector('.shurikens__count');
-
-    const scene = this.scene;
-
-    this.scale.on('orientationchange', function (orientation) {
-      if (orientation === Phaser.Scale.PORTRAIT) {
-        scene.pause();
-      }
-
-      if (orientation === Phaser.Scale.LANDSCAPE) {
-        scene.resume();
-      }
-    });
   }
 
   update() {

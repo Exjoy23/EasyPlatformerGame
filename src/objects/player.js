@@ -9,9 +9,9 @@ export default class Player {
       frames: anims.generateFrameNames('player', {
         prefix: 'ninja_walk_',
         start: 0,
-        end: 59,
+        end: 29,
       }),
-      frameRate: 120,
+      frameRate: 60,
       repeat: -1,
     });
 
@@ -20,9 +20,9 @@ export default class Player {
       frames: anims.generateFrameNames('player', {
         prefix: 'ninja_idle_',
         start: 0,
-        end: 59,
+        end: 29,
       }),
-      frameRate: 90,
+      frameRate: 45,
       repeat: -1,
     });
 
@@ -31,33 +31,33 @@ export default class Player {
       frames: anims.generateFrameNames('player', {
         prefix: 'ninja_jump_',
         start: 0,
-        end: 59,
+        end: 29,
       }),
-      frameRate: 60,
+      frameRate: 30,
       repeat: -1,
     });
 
-    anims.create({
-      key: 'throw-jump',
-      frames: anims.generateFrameNames('player', {
-        prefix: 'ninja_throw_jump_',
-        start: 0,
-        end: 59,
-      }),
-      frameRate: 120,
-      repeat: -1,
-    });
+    // anims.create({
+    //   key: 'throw-jump',
+    //   frames: anims.generateFrameNames('player', {
+    //     prefix: 'ninja_throw_jump_',
+    //     start: 0,
+    //     end: 29,
+    //   }),
+    //   frameRate: 60,
+    //   repeat: -1,
+    // });
 
-    anims.create({
-      key: 'throw-idle',
-      frames: anims.generateFrameNames('player', {
-        prefix: 'ninja_throw_idle_',
-        start: 0,
-        end: 59,
-      }),
-      frameRate: 180,
-      repeat: -1,
-    });
+    // anims.create({
+    //   key: 'throw-idle',
+    //   frames: anims.generateFrameNames('player', {
+    //     prefix: 'ninja_throw_idle_',
+    //     start: 0,
+    //     end: 29,
+    //   }),
+    //   frameRate: 90,
+    //   repeat: -1,
+    // });
 
     this.sprite = scene.physics.add.sprite(x, y, 'player', 0);
     this.sprite.body.setSize(20, 75);
