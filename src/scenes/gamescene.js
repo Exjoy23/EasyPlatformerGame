@@ -24,6 +24,10 @@ export default class GameScene extends Phaser.Scene {
   }
 
   create() {
+    const buttonStart = document.querySelector('.menu');
+    buttonStart.addEventListener('click', () => {
+      buttonStart.style.display = 'none';
+    });
     const map = this.make.tilemap({
       key: 'map',
       tileWidth: 64,
@@ -43,8 +47,13 @@ export default class GameScene extends Phaser.Scene {
       this.cameras.main,
     );
     this.physics.add.collider(this.player.sprite, platforms);
-    this.spikes = new Spikes(this.player, map, this);
-    this.shuriken = new Shuriken(this.player.sprite, this, platforms);
+    this.spikes = new Spikes(this.player, map, this, this.shuriken);
+    this.shuriken = new Shuriken(
+      this.player.sprite,
+      this,
+      platforms,
+      this.spikes,
+    );
     this.fps = document.querySelector('.fps');
     this.shurikenCount = document.querySelector('.shurikens__count');
   }

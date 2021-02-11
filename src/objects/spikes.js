@@ -22,4 +22,8 @@ export default class Spikes {
       scene,
     );
   }
+
+  getSpikes() {
+    return this.spikes;
+  }
 }

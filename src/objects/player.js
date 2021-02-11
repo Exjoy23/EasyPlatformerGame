@@ -37,28 +37,6 @@ export default class Player {
       repeat: -1,
     });
 
-    // anims.create({
-    //   key: 'throw-jump',
-    //   frames: anims.generateFrameNames('player', {
-    //     prefix: 'ninja_throw_jump_',
-    //     start: 0,
-    //     end: 29,
-    //   }),
-    //   frameRate: 60,
-    //   repeat: -1,
-    // });
-
-    // anims.create({
-    //   key: 'throw-idle',
-    //   frames: anims.generateFrameNames('player', {
-    //     prefix: 'ninja_throw_idle_',
-    //     start: 0,
-    //     end: 29,
-    //   }),
-    //   frameRate: 90,
-    //   repeat: -1,
-    // });
-
     this.sprite = scene.physics.add.sprite(x, y, 'player', 0);
     this.sprite.body.setSize(20, 75);
 
@@ -117,7 +95,7 @@ export default class Player {
 
     this.directionThrowShuriken = 1;
     this.letThrowShuriken = true;
-    this.shurikenCount = 99;
+    this.shurikenCount = 10;
 
     camera.startFollow(this.sprite);
   }
@@ -142,7 +120,6 @@ export default class Player {
     }
 
     if ((keys.up.isDown || this.jump) && sprite.body.onFloor()) {
-      // this.scene.jumpSound.play();
       sprite.setVelocityY(-this.jumpHeight);
       sprite.play('jump', true);
     }
@@ -180,23 +157,6 @@ export default class Player {
       this.shurikenCount
     ) {
       shuriken.shurikenThrow(this.directionThrowShuriken);
-
-      if (
-        sprite.body.onFloor() &&
-        !(
-          keys.left.isDown ||
-          this.moveLeft ||
-          keys.right.isDown ||
-          this.moveRight
-        )
-      ) {
-        sprite.play('throw-idle', true);
-      }
-
-      if (!sprite.body.onFloor()) {
-        sprite.play('throw-jump', true);
-      }
-
       this.letThrowShuriken = false;
 
       if (this.shurikenCount > 0) {
